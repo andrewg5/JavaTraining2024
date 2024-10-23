@@ -3,40 +3,40 @@
 ## Rules
 1. All classes must be in their own file
 
-2. Must model Encapsulation in variables and methods (public and private appropriately)
+2. Must model Encapsulation in variables and methods (use public and private appropriately)
 
 3. Must have comments above each method breifly explaining what it is intended to do
   
-4. Must have an abstract class “Pokemon” that all individual pokemon inherit from
+4. Must have an abstract class “Pokemon” that all individual pokemon inherit from (abstraction!)
 
      a. Must have an instance variable for health
 
      b. Must have an instance variable for name
 
-     c. Must have a non-default constructor taking in parameters for initial health and name values and setting those values to the instance variables
+     c. Must have a non-default constructor taking in parameters for initial health and name values and settingthe instance variables to those values
 
-     d. Must have defined method “take damage” that intakes an integer parameter
+     d. Must have a defined (regular) method “take damage” that intakes an integer parameter and subtracts that value from health
 
-     e. Must have abstract method “attack” that intakes a parameter of a Pokemon object (subtype polymorphism!). Call the "take damage" method of that pokemon inside of this method
+     e. Must have abstract method “attack” that intakes a parameter of a Pokemon object (Abstraction!). Call the "take damage" method of that pokemon inside of this method, passing in however much damge the attack is meant to do (subtype polymorphism!)
 
      f. Must have a getter “getIsFainted” that returns true or false for if the pokemon is dead (health <=0)
 
 
-6. Must have a child class for individual pokemon. Must make 1, it'd be better practice to make 2
+6. Must have a child class for individual pokemon (i.e. public class Jigglypuff) that extends (inherits from) Pokemon. Must make 1, it'd be better practice to make 2
 
-     a. Must override the "attack" method
+     a. Must overload (@override) the "attack" method (method polymorphism!)
 
      b. Must have a default constructor setting the "health" and "name" variables to reasonable default values (i.e.  14, "Jigglypuff")
 
-     c. Must have a non-default constructor that sets "health" and "name" to valeus given in the parameters
+     c. Must have a non-default constructor that sets "health" and "name" to values given in the parameters (method polymorphism!)
 
 7. Within a main method, make default objects of your pokemon and have them fight!
 
-     a. In a while loop that continues until one or both pokemon have fainted, have them take turns attacking each other
+     a. In a while loop that continues until one or both pokemon have fainted, have them take turns attacking each other, passing the object of the defender into the attack method of the attacker
 
-     b. Print out your winner!
+     b. Print out the name of your winner!
 
-8. Repeat 7, but with non-default objects of your pokemon
+8. Repeat 7, but with non-default objects of your pokemon (different health, different names, same objects)
 
 10. Check your Understanding in a txt file:
     
@@ -63,4 +63,6 @@ If you get it to me before Saturday, I will for sure review it before the end of
 ## Optional Further Practice
 - Include Types (water, fire, grass) with strengths and weaknesses
 - Include multiple different attacks on each pokemon
-- Make "status conditions" (sleep, paralysis, poison)
+- Include levels that assign health values and change the damage dealt in the attack method
+- Make "status conditions" (sleep, paralysis, poison) that have a percent chance to activate after an attack (import java.util.Random;, google how to use it to get random values)
+
