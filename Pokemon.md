@@ -36,7 +36,7 @@
 
      b. Print out the name of your winner!
 
-8. Repeat 7, but with non-default objects of your pokemon (different health, different names, same objects)
+8. Repeat 7, but with non-default objects of your pokemon (different health, different names)
 
 10. Check your Understanding in a txt file:
     
