@@ -21,6 +21,7 @@
 
      f. Must have a getter “getIsFainted” that returns true or false for if the pokemon is dead (health <=0)
 
+     g. Must have a getter "getName" that returns the name of the pokemon
 
 6. Must have a child class for individual pokemon (i.e. public class Jigglypuff) that extends (inherits from) Pokemon. Must make 1, it'd be better practice to make 2
 
