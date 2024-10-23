@@ -23,7 +23,7 @@
 
      g. Must have a getter "getName" that returns the name of the pokemon
 
-6. Must have a child class for individual pokemon (i.e. public class Jigglypuff) that extends (inherits from) Pokemon. Must make 1, it'd be better practice to make 2
+5. Must have a child class for individual pokemon (i.e. public class Jigglypuff) that extends (inherits from) Pokemon. Must make 1, it'd be better practice to make 2
 
      a. Must overload (@override) the "attack" method (method polymorphism!). Call the "take damage" method of that pokemon inside of this method, passing in however much damge the attack is meant to do (subtype polymorphism!). If you want other effect to happen, put them here too!
 
@@ -31,15 +31,15 @@
 
      c. Must have a non-default constructor that sets "health" and "name" to values given in the parameters (method polymorphism!)
 
-7. Within a main method, make default objects of your pokemon and have them fight!
+6. Within a main method, make default objects of your pokemon and have them fight!
 
      a. In a while loop that continues until one or both pokemon have fainted, have them take turns attacking each other, passing the object of the defender into the attack method of the attacker
 
      b. Print out the name of your winner!
 
-8. Repeat 7, but with non-default objects of your pokemon (different health, different names)
+7. Repeat 7, but with non-default objects of your pokemon (different health, different names)
 
-9. Check your Understanding in a txt file:
+8. Check your Understanding in a txt file:
     
      a. Explain why Pokemon should be an abstract class
    
