@@ -17,7 +17,7 @@ public class Main {
             System.out.println("The winner is " + geodude.getName());
         }
 
-        // // Round 2
+        // Round 2
         Pokemon toughGuy = new Geodude(25, "Tough Guy");
         Pokemon littleBuddy = new Jigglypuff(12, "Little Buddy");
 
