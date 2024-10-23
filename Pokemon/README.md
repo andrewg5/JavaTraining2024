@@ -1,13 +1,13 @@
 # Let's Make Pokemon!
 
 ## Rules
-1. All classes must be in their own file
+1. All classes must be in their own file (Packages)
 
-2. Must model Encapsulation in variables and methods (use public and private appropriately)
+2. Mustuse public and private appropriately in all instance variables and methods (Encapsulation!)
 
 3. Must have comments above each method breifly explaining what it is intended to do
   
-4. Must have an abstract class “Pokemon” that all individual pokemon inherit from (abstraction!)
+4. Must have an abstract class “Pokemon” that all individual pokemon inherit from (Abstraction!)
 
      a. Must have an instance variable for health
 
