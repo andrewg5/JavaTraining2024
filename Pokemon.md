@@ -17,14 +17,14 @@
 
      d. Must have a defined (regular) method “take damage” that intakes an integer parameter and subtracts that value from health
 
-     e. Must have abstract method “attack” that intakes a parameter of a Pokemon object (Abstraction!). Call the "take damage" method of that pokemon inside of this method, passing in however much damge the attack is meant to do (subtype polymorphism!)
+     e. Must have abstract method “attack” that intakes a parameter of a Pokemon object (Abstraction!)
 
      f. Must have a getter “getIsFainted” that returns true or false for if the pokemon is dead (health <=0)
 
 
 6. Must have a child class for individual pokemon (i.e. public class Jigglypuff) that extends (inherits from) Pokemon. Must make 1, it'd be better practice to make 2
 
-     a. Must overload (@override) the "attack" method (method polymorphism!)
+     a. Must overload (@override) the "attack" method (method polymorphism!). Call the "take damage" method of that pokemon inside of this method, passing in however much damge the attack is meant to do (subtype polymorphism!). If you want other effect to happen, put them here too!
 
      b. Must have a default constructor setting the "health" and "name" variables to reasonable default values (i.e.  14, "Jigglypuff")
 
