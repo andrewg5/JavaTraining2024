@@ -69,4 +69,6 @@ If you get it to me before Saturday, I will for sure review it before the end of
 - Include multiple different attacks on each pokemon
 - Include levels that assign health values and change the damage dealt in the attack method
 - Make "status conditions" (sleep, paralysis, poison) that have a percent chance to activate after an attack (import java.util.Random;, google how to use it to get random values)
+- Give attacks a chance to miss
+
 
