@@ -38,7 +38,7 @@
 
 8. Repeat 7, but with non-default objects of your pokemon
 
-9. Check your Understanding in a txt file:
+10. Check your Understanding in a txt file:
     
      a. Explain why Pokemon should be an abstract class
    
@@ -52,9 +52,15 @@
    
      f. Explain why you made one of your instance variables private
 
+## When you Finish
+1. Make sure you commit changes to github
+2. Make sure you push your changes (send them to the cloud)
+3. Send a link to your github to @Noah over discord. 
+
+If you get it to me before Saturday, I will for sure review it before the end of the weekend. If you get it to me before Tuesday, I will review it before the next weekend
 
 
-Optional Further Practice:
+## Optional Further Practice
 - Include Types (water, fire, grass) with strengths and weaknesses
 - Include multiple different attacks on each pokemon
 - Make "status conditions" (sleep, paralysis, poison)
