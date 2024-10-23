@@ -22,7 +22,7 @@
    f. Must have a getter “getIsFainted” that returns true or false for if the pokemon is dead (health <=0)
 
 
-6. Must have at least 2 child classes for individual pokemon
+6. Must have a child class for individual pokemon. Must make 1, it'd be better practice to make 2
 
    a. Must override the "attack" method
 
@@ -37,3 +37,9 @@
    b. Print out your winner!
 
 8. Repeat 7, but with non-default objects of your pokemon
+
+
+Optional Further Practice:
+- Include Types (water, fire, grass) with strengths and weaknesses
+- Include multiple different attacks on each pokemon
+- Make "status conditions" (sleep, paralysis, poison)
