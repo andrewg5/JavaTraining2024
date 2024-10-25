@@ -1,0 +1,6 @@
+a) you never create an instance of the pokemon class, as you only create children of it.
+b) All pokemon have some of the same functions, this means that if you put the methods in a parent class, you would not have to write the same method in every pokemon.
+c) an example is the default constructor and the constructor that takes the name and the health.
+d) an example would be creating pokemon but setting them as the children
+e) I made the getters public so that you can access the values from a different file.
+f) I made the name private because you dont have to change it and it would clean up the code.
