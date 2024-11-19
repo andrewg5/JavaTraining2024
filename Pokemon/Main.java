@@ -5,8 +5,8 @@ public class Main {
         String winner = "";
         String winner2 = "";
 
-        Pokemon jigglypuff1 = new Jigglypuff(10, "a");
-        Pokemon jigglypuff2 = new Jigglypuff(15, "b");
+        Pokemon jigglypuff1 = new Jigglypuff();
+        Pokemon jigglypuff2 = new Jigglypuff();
         
         //attack loop 1
         while(!jigglypuff1.GetIsFainted() && !jigglypuff2.GetIsFainted()){
@@ -25,6 +25,28 @@ public class Main {
         }
 
         System.out.println(winner);
+
+
+        Pokemon jigglypuff3 = new Jigglypuff(10, "a");
+        Pokemon jigglypuff4 = new Jigglypuff(15, "b");
+        
+        //attack loop 2
+        while(!jigglypuff3.GetIsFainted() && !jigglypuff4.GetIsFainted()){
+            jigglypuff3.Attack(jigglypuff4);
+            System.out.println(jigglypuff4.GetName() + " " + jigglypuff4.GetHealth());
+            
+            jigglypuff4.Attack(jigglypuff3);
+            System.out.println(jigglypuff3.GetName() + " " + jigglypuff3.GetHealth());
+           
+        }
+        if(jigglypuff3.GetIsFainted()){
+            winner2 = jigglypuff4.GetName();
+        }
+        else{
+            winner2 = jigglypuff3.GetName();
+        }
+
+        System.out.println(winner2);
 
     }
 }
