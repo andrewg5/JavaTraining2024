@@ -1,8 +1,8 @@
 package Pokemon;
 
 public abstract class Pokemon {
-    int health;
-    String name;
+    private int health;
+    private String name;
 
     Pokemon(int health, String name){
         this.health = health;
